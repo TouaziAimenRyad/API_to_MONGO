@@ -12,8 +12,6 @@ def get_dataset(dataset,db_name):
 	for x in content:
 		l.append(x)
 	return l
-	#print(mycol.find())
-	#return mycol.find()
 	
 #paris wifi api
 dataset1=get_dataset("Paris_WIFI","Mydatabase")

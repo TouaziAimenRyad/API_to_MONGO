@@ -41,4 +41,4 @@ api_link3="https://opendata.paris.fr/api/records/1.0/search/?dataset=coronavirus
 save_from_api_to_db(api_link3,mydb,"Comercant_Command_Livraison")
 #in mongo a db is not cretaed until it contains a collection 
 #in monog a collection is not created until it contains some content  
-#print(myclient.list_database_names())
+
